@@ -1,4 +1,4 @@
-FROM jupyter/r-notebook:22.04
+FROM jupyter/r-notebook:ubuntu-22.04
 
 USER root
 
