@@ -52,5 +52,7 @@ RUN R -e "if (!library(ggpubr, logical.return=T)) quit(status=10)"
  
 RUN R -e "devtools::install_github('LukasKraiger/frame')"
  
+ RUN rm -rf .Rprofile
+
 #COPY user-settings /home/rstudio/.rstudio/monitored/user-settings/user-settings
 #COPY .Rprofile /home/rstudio/
